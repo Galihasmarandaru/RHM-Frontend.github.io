@@ -1,0 +1,1128 @@
+[
+  {
+    "name": "COATING &amp; INK",
+    "produk": [
+      {
+        "listName": "RESIN",
+        "sub": "sub-nav",
+        "listNav": ["A", "B"],
+        "link": "01-A.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnA1",
+                "modal": "ModalA1",
+                "text": "Silicone Hardcoat",
+                "list": ["SILFORT SHC 300"]
+              },
+              {
+                "button": "BtnA2",
+                "modal": "ModalA2",
+                "text": "Silicone Heat Resistance Resin",
+                "list": ["TSR-1452", "TSR-144", "TSR-194"]
+              },
+              {
+                "button": "BtnA3",
+                "modal": "ModalA3",
+                "text": "SPUR",
+                "list": ["Y-15990"]
+              },
+              {
+                "button": "BtnA4",
+                "modal": "ModalA4",
+                "text": "Solventbased Resin",
+                "list": [
+                  "Virem AP-6020",
+                  "Virem AP-6028",
+                  "Virem AP-6020",
+                  "Virem AP-6046",
+                  "Virem AP-7032",
+                  "Virem TA-305"
+                ]
+              }
+            ]
+          },
+          {
+            "row": [
+              {
+                "button": "BtnA5",
+                "modal": "ModalA5",
+                "text": "Waterbased Resin",
+                "list": ["Virem PAD-1593"]
+              },
+              {
+                "button": "BtnA6",
+                "modal": "ModalA6",
+                "text": "UV Resin",
+                "list": ["Sartomer CN989 NS", "Sartomer CN371 NS"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "ADHESION PROMOTOR",
+        "link": "01-B.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Coatosil MP-200"
+              },
+              {
+                "text": "Silquest-187"
+              },
+              {
+                "text": "Silquest A-1100"
+              },
+              {
+                "text": "Silquest A-1120"
+              }
+            ]
+          },
+          {
+            "row": [
+              {
+                "text": "Wetlink 78"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "CROSSLINKER",
+        "link": "01-C.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Coatosil MP-200"
+              },
+              {
+                "text": "Coatosil 2287"
+              },
+              {
+                "text": "Silquest A-171"
+              },
+              {
+                "text": "Silquest A-174"
+              }
+            ]
+          },
+          {
+            "row": [
+              {
+                "text": "Silquest A-151"
+              },
+              {
+                "text": "Silquest A-189"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "WATER REPELLENT",
+        "link": "01-D.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Coatosil DRI"
+              },
+              {
+                "text": "Coatosil PRIM"
+              },
+              {
+                "text": "Coatosil 2059"
+              },
+              {
+                "text": "Silblock WMS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "DEFOAMER",
+        "link": "01-E.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnE1",
+                "modal": "ModalE1",
+                "text": "Solventbased",
+                "list": ["Elifom 6632", "Elifom 6102", "Elifom 6105"]
+              },
+              {
+                "button": "BtnE2",
+                "modal": "ModalE2",
+                "text": "Waterbased",
+                "list": [
+                  "Foamdoctor G1186",
+                  "Foamdoctor G1129",
+                  "Foamdoctor G2988",
+                  "Foamdoctor F2925",
+                  "Foamdoctor F2960"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "DISPERSING AGENT",
+        "link": "01-F.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnF1",
+                "modal": "ModalF1",
+                "text": "Solventbased",
+                "list": [
+                  "DMAST 2202",
+                  "DMAST 2201",
+                  "DMAST 2306S",
+                  "DMAST 2134"
+                ]
+              },
+              {
+                "button": "BtnF2",
+                "modal": "ModalF2",
+                "text": "Waterbased",
+                "list": ["DMAST A2512", "DMAST 2134"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "LEVELLING & SLIP AGENT",
+        "link": "01-G.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnG1",
+                "modal": "ModalG1",
+                "text": "Solventbased",
+                "list": ["Coatiosil 7001", "Coatiosil 2820"]
+              },
+              {
+                "button": "BtnG2",
+                "modal": "ModalG2",
+                "text": "Waterbased",
+                "list": ["Sivel 5521"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "WETTING AGENT",
+        "link": "01-H.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Coatosil 77"
+              },
+              {
+                "text": "Coatosil 1211"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "CATALYST",
+        "link": "01-I.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Catly 106"
+              },
+              {
+                "text": "Catly 318"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "FLUOROCHEMICAL",
+        "link": "01-J.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Hexafor 601"
+              },
+              {
+                "text": "Hexafor 695"
+              },
+              {
+                "text": "Hexafor 6232"
+              },
+              {
+                "text": "Hexafor 6284"
+              }
+            ]
+          },
+          {
+            "row": [
+              {
+                "text": "Lineplus PF 250-R"
+              },
+              {
+                "text": "Linewax PF-1408A"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "RHEOLOGY",
+        "link": "01-K.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Flujo A3151"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "PIGMENT",
+        "link": "01-L.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Metaflake Silver"
+              },
+              {
+                "text": "Geotech Pearl"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "SPECIALTY",
+        "link": "01-M.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnM1",
+                "modal": "ModalM1",
+                "text": "Anti Scratch & Texture",
+                "list": ["Diapshere MH-15 FD", "Diapshere MH-40 FD"]
+              },
+              {
+                "button": "BtnM2",
+                "modal": "ModalM2",
+                "text": "Anti Fuoling",
+                "list": ["Cupprus oxide", "Tralopyril", "DCOIT 30%"]
+              },
+              {
+                "button": "BtnM3",
+                "modal": "ModalM3",
+                "text": "Anti Corrosion",
+                "list": ["Hightac Taccor G50Z"]
+              },
+              {
+                "button": "BtnM4",
+                "modal": "ModalM4",
+                "text": "Anti Tanin",
+                "list": ["ADH", "DAAM"]
+              }
+            ]
+          },
+          {
+            "row": [
+              {
+                "button": "BtnM5",
+                "modal": "ModalM5",
+                "text": "Transfer Aid",
+                "list": [
+                  "Creotran HYS 63",
+                  "Creotran NMS 55",
+                  "Creotrabn RP 16"
+                ]
+              },
+              {
+                "button": "BtnM6",
+                "modal": "ModalM6",
+                "text": "Photoinisiator",
+                "list": [
+                  "Speedcure TPO",
+                  "Speedcure MBF",
+                  "Speedcure 73",
+                  "Speedcure 84"
+                ]
+              },
+              {
+                "button": "BtnM7",
+                "modal": "ModalM7",
+                "text": "PP Primer",
+                "list": ["CPO-2165"]
+              },
+              {
+                "button": "BtnM8",
+                "modal": "ModalM8",
+                "text": "Eco Friendly Crossliner",
+                "list": [
+                  "Carbodilite E-05",
+                  "Carbodilite F-02",
+                  "Carbodilite V-02-L2"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "MACHINARY",
+        "link": "01-N.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "BUHLER Grinding & Dispersing machine"
+              },
+              {
+                "text": "FRIGEL Cooling Tower & Chiller"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "EMULSION POLYMERIZATION",
+    "produk": [
+      {
+        "listName": "Crosslinking agent",
+        "link": "02-A.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Silquest® A 171 silane"
+              },
+              {
+                "text": "Silquest® A 174 silane"
+              },
+              {
+                "text": "Silquest® A 187 silane"
+              },
+              {
+                "text": "Silquest®A 189 silane"
+              }
+            ]
+          },
+          {
+            "row": [
+              {
+                "text": "Silquest® A 151 silane"
+              },
+              {
+                "text": "CoatOsil® MP 200 silane"
+              },
+              {
+                "text": "CoatOsil® 2287 silane"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Antifoam",
+        "link": "02-B.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Foamdoctor® G 1186"
+              },
+              {
+                "text": "Foamdoctor® G 1129"
+              },
+              {
+                "text": "Foamdoctor® G 2988"
+              },
+              {
+                "text": "Foamdoctor® F 2925"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Wetting Agent",
+        "link": "02-C.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "CoatOsil® 1211"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "PLASTIC & CABLE",
+    "produk": [
+      {
+        "listName": "CABLE",
+        "link": "03-A.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnC1",
+                "modal": "ModalC1",
+                "text": "Crosslinking agent",
+                "list": ["Silquest® A 171 silane"]
+              },
+              {
+                "button": "BtnC2",
+                "modal": "ModalC2",
+                "text": "Anti oksidan for copper",
+                "list": ["Raysol FA 84"]
+              },
+              {
+                "button": "BtnC3",
+                "modal": "ModalC3",
+                "text": "Processing aid",
+                "list": ["Pearlene"]
+              },
+              {
+                "text": "Flame retardant"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "PLASTIC",
+        "link": "03-B.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnB1",
+                "modal": "ModalB1",
+                "text": "Processing aid",
+                "list": ["Pearlene"]
+              },
+              {
+                "button": "BtnB2",
+                "modal": "ModalB2",
+                "text": "Screw Cleaner/Purguing Compound",
+                "list": ["Cleanscrew"]
+              },
+              {
+                "button": "BtnC3",
+                "modal": "ModalC3",
+                "text": "Mould Release Agent",
+                "list": ["Release Coat M 1190"]
+              },
+              {
+                "button": "BtnD3",
+                "modal": "ModalD3",
+                "text": "Pigment Master batch",
+                "list": ["metaflake", "wudi"]
+              }
+            ]
+          },
+          {
+            "row": [
+              {
+                "button": "BtnE3",
+                "modal": "ModalE3",
+                "text": "Pigment Dispersing Agent",
+                "list": ["Tegomer E 525", "Tegomer P 121", "Tegomer P122"]
+              },
+              {
+                "button": "BtnF3",
+                "modal": "ModalF3",
+                "text": "Scratch and mar resistance",
+                "list": [
+                  "tegomer 6264",
+                  "tegomer Anti scratch 100",
+                  "tegomer 6441",
+                  "tegomer 6444",
+                  "tegomer antiscratch L",
+                  "tegomer M-si 2650"
+                ]
+              },
+              {
+                "button": "BtnG3",
+                "modal": "ModalG3",
+                "text": "HFFR",
+                "list": [
+                  "SFR 100",
+                  "accurel FR 504",
+                  "Accurel FR 100",
+                  "accurel FR 519",
+                  "Tegomer Vsi 4042",
+                  "tegopren 5885"
+                ]
+              },
+              {
+                "button": "BtnH3",
+                "modal": "ModalH3",
+                "text": "Odor Absorption",
+                "list": ["Tegosorb PY 88 pp", "tegosorb PY 88 PE"]
+              }
+            ]
+          },
+          {
+            "row": [
+              {
+                "button": "BtnI3",
+                "modal": "ModalI3",
+                "text": "Anti Fogging",
+                "list": ["Tego STS Pellets", "Accurel GA 320", "Accurel GA 314"]
+              },
+              {
+                "button": "BtnJ3",
+                "modal": "ModalJ3",
+                "text": "Anti Static",
+                "list": ["tegin 90 pellets", "Accurel GA 302", "Accurel GA 300"]
+              },
+              {
+                "button": "BtnK3",
+                "modal": "ModalK3",
+                "text": "Antifoam",
+                "list": ["desiccant MB"]
+              },
+              {
+                "button": "BtnL3",
+                "modal": "ModalL3",
+                "text": "pin ejector / Mould release / anti rust/ lubricant/ screw cleaner",
+                "list": [
+                  "mikon",
+                  "internal mikon",
+                  "151",
+                  "MP 11",
+                  "universal oil"
+                ]
+              }
+            ]
+          },
+          {
+            "row": [
+              {
+                "text": "Machine - cooling system"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "RUBBER INDUSTRIES",
+    "produk": [
+      {
+        "listName": "New Generation silane",
+        "link": "04-A.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "NXT®"
+              },
+              {
+                "text": "Carbo NXT® silane"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Specialty filler",
+        "link": "04-B.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Pearlite"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "HOUSEHOLD, PERSONAL CARE &amp; COSMETICS",
+    "produk": [
+      {
+        "listName": "Encapsulation Sphere",
+        "link": "05-A.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnE1",
+                "modal": "ModalE1",
+                "text": "Beads",
+                "list": [
+                  "Spraysheres® SC",
+                  "Spraysheres® SM",
+                  "Spraysheres® SH",
+                  "Spraysheres® SO",
+                  "Soft Speheres® SA ( Agar)",
+                  "Surprise Sphere® SS ( Color Changing Beads)",
+                  "Pearly/Glittery Sphere"
+                ]
+              },
+              {
+                "button": "BtnE2",
+                "modal": "ModalE2",
+                "text": "Exfoliators",
+                "list": [
+                  "Spraysheres® SE",
+                  "Natural Shell powder Exfoliators (Almond Shell powder, Walnut Shell powder, Coconut Shell powder, Peanut shell powder, Pistachio Shell powder)"
+                ]
+              },
+              {
+                "button": "BtnE3",
+                "modal": "ModalE3",
+                "text": "Pigments",
+                "list": ["Twinkle Sparkle® EG", "Lustre Dust – LD"]
+              },
+              {
+                "button": "BtnE4",
+                "modal": "ModalE4",
+                "text": "Films",
+                "list": ["Actifilms®AF"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Fragrance",
+        "link": "05-B.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Fragrance"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Machinery Grinding and Despersion",
+        "link": "05-C.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Buhler"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "FOOD &amp; BEVERAGES",
+    "produk": [
+      {
+        "listName": "Herbal Beadlets",
+        "link": "06-A.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Herbal Beadlets"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Tea Flavour Beads",
+        "link": "06-B.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Tea Flavour Beads"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Bakery decoration",
+        "link": "06-C.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Bakery decoration"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Encapsulated aroma oil",
+        "link": "06-D.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Encapsulated aroma oil"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Mouth Dissolving Film",
+        "link": "06-E.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Mouth Dissolving Film"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Conveyor belt lubricants",
+        "link": "06-F.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Conveyor belt lubricants"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "DIE CASTING",
+    "produk": [
+      {
+        "listName": "Mould release agent",
+        "link": "07-A.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnG1",
+                "modal": "ModalG1",
+                "text": "Water based",
+                "list": ["Metalcast DL 860", "Metalcast B 180"]
+              },
+              {
+                "button": "BtnG2",
+                "modal": "ModalG2",
+                "text": "Oil based",
+                "list": ["Metalcast KLP 715"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Piston Lubricants",
+        "link": "07-B.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Powercast SX : Plunger pellet lubricant with graphite"
+              },
+              {
+                "text": "Powercast LX : Plunger pellet lubricant non graphite"
+              },
+              {
+                "text": "Lubro er : synthetic plunger oil lubricant"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Hidraulic Fluid",
+        "link": "07-C.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Alu safe 620"
+              },
+              {
+                "text": "Lubro H"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Grease and Oil",
+        "link": "07-D.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Protec PCU"
+              },
+              {
+                "text": "Protec Alu"
+              },
+              {
+                "text": "Protec PT"
+              },
+              {
+                "text": "Universal oil"
+              }
+            ]
+          },
+          {
+            "row": [
+              {
+                "text": "Start up 715"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Auxiliary products",
+        "link": "07-E.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Alu det P15"
+              },
+              {
+                "text": "Alu det ra"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Plunger",
+        "link": "07-F.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "HGS series Lubromech"
+              },
+              {
+                "text": "Plunger sleeve lubromech"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Machine and dosing",
+        "link": "07-G.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnG1",
+                "modal": "ModalG1",
+                "text": "Buhler (die casting machine)",
+                "list": ["Ecolines", "Carat", "Fusion"]
+              },
+              {
+                "button": "BtnG2",
+                "modal": "ModalG2",
+                "text": "Frigel (cooling system)",
+                "list": ["Ecodry", "Turbogel", "Jet cooled"]
+              },
+              {
+                "button": "BtnG3",
+                "modal": "ModalG3",
+                "text": "Dosing systems",
+                "list": [
+                  "Power spray machine",
+                  "Lubro mix 80",
+                  "Lubro spray nozzle",
+                  "Nozzle mist spray"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "HOT FORGING",
+        "link": "07-H.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnG1",
+                "modal": "ModalG1",
+                "text": "Steel hot forging",
+                "list": ["Lubrosteel DCA 251", "Metalcast Graf 591"]
+              },
+              {
+                "button": "BtnG2",
+                "modal": "ModalG2",
+                "text": "Brass Hot forging",
+                "list": ["Lubro DCA 110", "Lubro graf 121", "Lubro DCA GR 3"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "METALWORKING",
+        "link": "07-I.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnG1",
+                "modal": "ModalG1",
+                "text": "Metal working fluid",
+                "list": ["Metal cut Bio M72", "Metal cut synth HF"]
+              },
+              {
+                "button": "BtnG2",
+                "modal": "ModalG2",
+                "text": "Oil for driiling and threading",
+                "list": ["Lubro cut 9EP", "Lubro cut LR68/B"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "MACHINERY",
+    "produk": [
+      {
+        "listName": "Alumunium injection",
+        "link": "08-A.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Buhler"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Cooling system",
+        "link": "08-B.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Frigel"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Other Industries",
+    "produk": [
+      {
+        "listName": "Fibre glass and composite industry",
+        "link": "09-A.html",
+        "data": [
+          {
+            "row": [
+              {
+                "button": "BtnI1",
+                "modal": "ModalI1",
+                "text": "Mould release",
+                "list": ["Mikon"]
+              },
+              {
+                "button": "BtnI2",
+                "modal": "ModalI2",
+                "text": "Anti scratch",
+                "list": ["Silquest"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Textile industry",
+        "link": "09-B.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Anti static"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Agricultural industry",
+        "link": "09-C.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Buhler machinery"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "listName": "Fibre glass and composite industry",
+        "link": "09-D.html",
+        "data": [
+          {
+            "row": [
+              {
+                "text": "Mikon"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

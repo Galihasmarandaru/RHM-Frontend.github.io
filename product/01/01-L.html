@@ -1,0 +1,140 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="shortcut icon" href="../../img/favicon.ico" />
+
+    <title>PT. Rena Hanim Mulia | Product</title>
+</head>
+
+<body>
+    <header id="home" class="header product-view">
+        <nav class="navigation">
+            <div class="bar-navigation" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div id="list" class="navigation__list navbar">
+                <a href="../../index.html" class="navigation__list-link">
+                    Home
+                </a>
+                <a href="../../index.html#product" class="navigation__list-link">Business
+                    Field</a>
+                <a href="../../index.html#reason" class="navigation__list-link">Why Us</a>
+                <a href="../../index.html#news" class="navigation__list-link">Our Updates</a>
+                <a href="../../index.html#footer" class="navigation__list-link">How to Find Us</a>
+            </div>
+            <img src="../../img/logo.png" alt="logo" class="navigation__logo">
+        </nav>
+    </header>
+    <section class="section-first-product">
+        <div class="overview">
+            <nav class="sidebar">
+                <div class="close-side-nav">&times;</div>
+                <ul class="side-nav"></ul>
+                <div class="legal">
+                    Copyright &copy; 2020 Powered by PT Rena Haniem Mulia
+                </div>
+            </nav>
+            <div class="detail-product">
+                <div class="responsive-menu">
+                    <div id="menu-resp" class="btn btn--menu"> <i class="fa fa-bars"></i> MENU</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="modal-item"></section>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../../js/style.js"></script>
+    <script>
+        $(document).ready(function () {
+            // PRODUK NUMBER
+            var $produkNum = 0;
+            var $produkList = 11;
+
+            // NAVIGATION NUMBER
+            var $produkNavigation = 11;
+
+
+            $.getJSON("../../data/product.json", function (result) {
+                // SIDE NAVIGATION
+                $.each(result[$produkNum].produk, function (i, field) {
+                    $(".side-nav").append("<li class='side-nav__item " + (i == $produkNavigation ? 'side-nav__item--active' : '') + "'>" +
+                        "<a href='" + field.link + "' class='side-nav__link'>" + field.listName + "</a>" +
+                        "</li>");
+                });
+
+                // HEADING
+                var $parentTitle = $("<div class='heading'></div>");
+                $parentTitle.append("<h1>" + result[$produkNum].name + "</h1>");
+                $parentTitle.append("<h4>(" + result[$produkNum].produk[$produkList].listName + ")</h4>");
+                $(".detail-product").append($parentTitle);
+
+                // LIST PRODUCT
+                $.each(result[$produkNum].produk[$produkList].data, function (i, field) {
+                    var $parentElement = $("<div class='row product-row'></div>");
+
+                    this.row.forEach(component => {
+                        var $childElement = $("<div class='col-lg-3 product-row__card'></div>");
+                        var $childElement01 = $("<img src='../../img/left-header.jpg' alt='' class='product-row__card-img'>");
+                        var $childElement02 = $("<div class='product-row__card-description'>");
+                        var $childElement03 = $("<h2 id='" + component.button + "'>" + component.text + "</h2>");
+                        $parentElement.append($childElement);
+                        $childElement.append($childElement01);
+                        $childElement.append($childElement02);
+                        $childElement02.append($childElement03);
+                    });
+
+                    $(".detail-product").append($parentElement);
+
+                    // MODAL
+                    this.row.forEach(component => {
+                        var $parentModal = $("<div id='" + component.modal + "' class='modal'></div>");
+                        var $childModal = $("<div class='modal-content'></div>");
+                        var $childModal01 = $("<div class='modal-header'></div>");
+                        var $childModal02 = $("<h2>" + component.text + "</h2>");
+                        var $childModal03 = $("<div class='modal-body'></div>");
+                        var $childModal04 = $("<ul></ul>");
+
+                        $parentModal.append($childModal);
+                        $childModal.append($childModal01);
+                        $childModal01.append($childModal02);
+                        $childModal.append($childModal03);
+                        $childModal03.append($childModal04);
+
+                        for (j in component.list) {
+                            var $childModal05 = $("<li>" + component.list[j] + "</li>");
+                            $childModal04.append($childModal05);
+                        }
+
+                        $(".modal-item").append($parentModal);
+                    });
+
+                    // FUNCTION MODAL
+                    this.row.forEach(component => {
+                        $(function () {
+                            $(".detail-product").on('click', "#" + component.button, function () {
+                                $("#" + component.modal).css("display", "block");
+                            });
+
+                            $(window).on("click", function (event) {
+                                if (event.target.id == component.modal) {
+                                    $("#" + component.modal).css("display", "none");
+                                }
+                            });
+                        });
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>

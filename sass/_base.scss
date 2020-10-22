@@ -1,0 +1,70 @@
+:root {
+    --color-primary: #272264;
+    --color-primary-light: #4e47b4;
+    --color-primary-dark: #1d1652;
+    --color-secondary: #ed1f28;
+    --color-secondary-light: #e8333b;
+    --color-grey-dark: #333;
+
+    --shadow-dark: 0 2rem 3rem rgba(0, 0, 0, 0.1);
+}
+
+@mixin respond($breakpoint) {
+    @if $breakpoint == phone {
+        @media (max-width: 480px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == tab-port {
+        @media (min-width: 481px) and (max-width: 576px) {
+            @content;
+        }
+    }
+    @if $breakpoint == tab-land {
+        @media (min-width: 577px) and (max-width: 768px) {
+            @content;
+        }
+    }
+    @if $breakpoint == desktop {
+        @media (min-width: 769px) and (max-width: 990px) {
+            @content;
+        }
+    }
+    @if $breakpoint == big-desktop {
+        @media (min-width: 991px) and (max-width: 1200px) {
+            @content;
+        }
+    }
+
+    @if $breakpoint == greater-desktop {
+        @media (min-width: 1201px) {
+            @content;
+        }
+    }
+}
+
+$color-gradient-primary: #272264;
+$color-gradient-primary-dark: #1d1652;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+}
