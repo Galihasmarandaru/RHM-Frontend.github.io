@@ -327,6 +327,57 @@
         }
     }
 
+    &__search {
+        display: inline-block;
+
+        &--input {
+            font-family: inherit;
+            font-size: inherit;
+            color: inherit;
+            background-color: var(--color-grey-light-2);
+            border: none;
+            padding: 0.7rem 2rem;
+            border-radius: 100px;
+            width: 90%;
+            transition: all 0.2s;
+            margin-right: -3.25rem;
+
+            &:focus {
+                outline: none;
+                width: 100%;
+                background-color: var(--color-grey-light-3);
+            }
+            &::-webkit-input-placeholder {
+                font-weight: 100;
+                color: var(--color-grey-light-4);
+            }
+        }
+
+        &--input:focus + &--button {
+            // ketika input diklik maka button ikut berubah
+            background-color: var(--color-grey-light-3);
+        }
+
+        &--button {
+            border: none;
+            background-color: var(--color-grey-light-2);
+
+            &:focus {
+                outline: none;
+            }
+
+            &:active {
+                transform: translateY(2px);
+            }
+        }
+
+        &--icon {
+            height: 2rem;
+            width: 2rem;
+            fill: var(--color-grey-dark-3);
+        }
+    }
+
     &__logo {
         animation: moveInRight 1s ease-out;
         display: block;
@@ -985,6 +1036,8 @@
             cursor: pointer;
 
             &:not(:first-child) {
+                margin-top: 1.2rem;
+
                 @include respond(phone) {
                     margin-top: 1.2rem;
                 }
@@ -998,11 +1051,11 @@
                 }
 
                 @include respond(desktop) {
-                    margin-top: 1.2rem;
+                    margin-top: 5rem;
                 }
 
                 @include respond(big-desktop) {
-                    margin-top: 0;
+                    margin-top: 1.2rem;
                 }
             }
 
