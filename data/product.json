@@ -11,26 +11,22 @@
           {
             "row": [
               {
-                "button": "BtnA1",
-                "modal": "ModalA1",
+                "button": "../../product_detail/01/01-A-detail.html",
                 "text": "Silicone Hardcoat",
                 "list": ["SILFORT SHC 300"]
               },
               {
                 "button": "BtnA2",
-                "modal": "ModalA2",
                 "text": "Silicone Heat Resistance Resin",
                 "list": ["TSR-1452", "TSR-144", "TSR-194"]
               },
               {
                 "button": "BtnA3",
-                "modal": "ModalA3",
                 "text": "SPUR",
                 "list": ["Y-15990"]
               },
               {
                 "button": "BtnA4",
-                "modal": "ModalA4",
                 "text": "Solventbased Resin",
                 "list": [
                   "Virem AP-6020",
@@ -47,13 +43,11 @@
             "row": [
               {
                 "button": "BtnA5",
-                "modal": "ModalA5",
                 "text": "Waterbased Resin",
                 "list": ["Virem PAD-1593"]
               },
               {
                 "button": "BtnA6",
-                "modal": "ModalA6",
                 "text": "UV Resin",
                 "list": ["Sartomer CN989 NS", "Sartomer CN371 NS"]
               }

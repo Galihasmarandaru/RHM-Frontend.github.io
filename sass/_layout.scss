@@ -158,7 +158,7 @@
 }
 
 .section-gallery {
-    padding: 18rem 0 0 0;
+    padding: 12rem 0 0 0;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -179,6 +179,10 @@
 .section-news {
     padding: 12rem 0 12rem 0;
     color: var(--color-primary-dark);
+
+    @include respond(phone) {
+        padding: 12rem 2rem 26rem 2rem;
+    }
 }
 
 .section-news-detail {
@@ -299,4 +303,66 @@
         padding-top: 2rem;
         flex: 0 0 100%;
     }
+}
+
+.section-sub-prodetail {
+    margin-top: 6rem;
+    padding: 0 5rem 0 5rem;
+
+    @include respond(phone) {
+        padding: 0;
+    }
+}
+
+.sub-prodetail {
+    display: flex;
+
+    &__left {
+        flex: 0 0 35%;
+
+        @include respond(phone) {
+            flex: 0 0 100%;
+        }
+
+        @include respond(tab-port) {
+            flex: 0 0 100%;
+        }
+        @include respond(tab-land) {
+            flex: 0 0 100%;
+        }
+    }
+
+    &__right {
+        flex: 1;
+        // background-color: blue;
+    }
+
+    @include respond(phone) {
+        flex-wrap: wrap;
+    }
+
+    @include respond(tab-port) {
+        flex-wrap: wrap;
+    }
+
+    @include respond(tab-land) {
+        flex-wrap: wrap;
+    }
+}
+
+.section-slideshow-product {
+    margin-top: 6rem;
+
+    height: auto;
+
+    background-image: linear-gradient(
+            89deg,
+            rgba($color-gradient-primary-dark, 0.45),
+            rgba($color-gradient-primary, 0.7)
+        ),
+        url("../img/left-header.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
 }
