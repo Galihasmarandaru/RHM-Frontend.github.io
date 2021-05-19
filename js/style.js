@@ -97,11 +97,10 @@ $(function () {
     $('.sidebar').css('display', 'none')
     $('.detail-product').css('display', 'block')
   });
-  $('.bar-navigation').click(function () {
-    $('.navigation__list').toggle()
-    $('.navigation__list').css('animation', 'none')
-    $('.navigation__logo').toggle()
-  });
+});
+
+$('.navigation-content__list-link').click(function(e){
+  $('#nav-toggle').prop('checked', false);
 });
 
 $('.btn--red').click(function () {
@@ -134,7 +133,7 @@ $('a[href*="#"]')
         );
       }
     }
-  })(jQuery);
+  });
 
   function myFunction(x) {
     x.classList.toggle("change");
