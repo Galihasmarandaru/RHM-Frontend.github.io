@@ -1749,6 +1749,7 @@ body {
   color: #fff;
   text-align: right;
   font-size: 2rem;
+  cursor: pointer;
   padding: 1rem 2rem 0 0;
   display: none; }
   @media (max-width: 480px) {
